@@ -1,0 +1,81 @@
+html{
+	height: 100%;
+}
+body{
+	background-color: #FFD366;
+	height: 100%;
+	font-family: 'Roboto', sans-serif !important;
+}
+h1{font-weight: 300;}
+.logo{
+	width: 350px;
+    margin: 21px;
+}
+
+.redSquare{
+	width: 7px;
+	height: 7px;
+	background-color: #E1626A;
+	display: inline-block;
+	margin-left: -2px;
+}
+.stripLine{
+	width: 350px;
+    margin: 24px;
+    margin-top: -29px;
+}
+
+.carBg{
+	background-image: url('../img/car_wide.png');
+	background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto auto;
+}
+.full{
+	height: calc(100% - 140px);
+	width: 90%;
+}
+.msg{
+	text-align: center;
+    margin-top: 20%;
+}
+.msg h2{
+	font-weight: 100;
+}
+.comingSoon{
+	margin-top: 50px;
+}
+.comingSoon span{
+	font-size: 21px;
+    font-weight: 100;
+}
+.comingSoon img{
+	width: 200px;
+	margin-top: 10px;
+}
+.getUpdates{
+	text-align: center;
+	margin-top: 50px;
+}
+input{
+	background-color: #FFD366 !important;
+	border: 2px solid #333 !important;
+	color: #333 !important;
+}
+.getUpdates button{
+    margin-top: 25px;
+    background-color: #333 !important;
+    border: 0;
+    color: #FFD366 !important;
+    height: 34px;
+    margin-left: -15px;
+    border-left: 0;
+}
+::-webkit-input-placeholder {color: #444!important;}
+:-moz-placeholder {color: #444!important;}
+::-moz-placeholder {color: #444!important;}
+:-ms-input-placeholder {color: #444!important;}
+
+.pl10{
+	padding-left: 40px;
+}

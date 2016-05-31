@@ -1,0 +1,11 @@
+<osm-script output="json">
+  <query type="way">
+    <around lat="31.932435301162" lon="34.815391106563" radius="7"/>
+    <has-kv k="highway" modv="" v=""/>
+  </query>
+  <union>
+    <item/>
+    <recurse type="down"/>
+  </union>
+  <print/>
+</osm-script>
